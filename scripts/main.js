@@ -1,4 +1,6 @@
-loadSwim('/content/2021-08-17.json');
+const searchParams = new URLSearchParams(window.location.search);
+let practice = searchParams.get('q');
+loadSwim(`/content/${practice}.json`);
 
 async function loadSwim(swim) {
     const content = await fetch(swim)
