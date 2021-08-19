@@ -65,7 +65,7 @@ async function loadSwim(swim) {
                 })
 
                 let distances = document.querySelectorAll(".distance:not(#total)")
-                distances[distances.length - 1].textContent = `${sectionTotal} ${res.measurement}`;
+                distances[distances.length - 1].textContent = `${sectionTotal} ${res.measurement}.`;
                 total += sectionTotal;
             })
 
@@ -73,7 +73,7 @@ async function loadSwim(swim) {
             let totalDistance = document.createElement('p');
             totalDistance.className = "distance";
             totalDistance.id = "total";
-            totalDistance.textContent = `${total} ${res.measurement}`;
+            totalDistance.textContent = `${total} ${res.measurement}.`;
 
             document.querySelector(".page").appendChild(totalDistance);
         })
