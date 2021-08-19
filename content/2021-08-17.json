@@ -8,50 +8,58 @@
         "endurance",
         "freestyle"
     ],
-    "body": {
-        "Warm Up": [
-            {
-                "repetitions": 6,
-                "distance": 100,
-                "stroke": "Mixed",
-                "details": "Kick. Drill. Swim."
-            }
-        ],
-        "Main Set": [
-            {
-                "repetitions": 3,
-                "distance": 200,
-                "stroke": "Free",
-                "details": "Build by the 50."
-            },
-            {
-                "repetitions": 2,
-                "distance": 200,
-                "stroke": "IM",
-                "details": "Moderate."
-            },
-            {
-                "repetitions": 14,
-                "distance": 100,
-                "stroke": "Free",
-                "details": "Easy. Moderate. Sprint. (Last 2 beat time)"
-            }
-        ],
-        "Kick": [
-            {
-                "repetitions": 4,
-                "distance": 150,
-                "stroke": "Free",
-                "details": "Moderate. Sprint the last 50's."
-            }
-        ],
-        "Warm Down": [
-            {
-                "repetitions": 3,
-                "distance": 100,
-                "stroke": "Free",
-                "details": "Easy."
-            }
-        ]
-    }
+    "body": [
+        {
+            "Warm Up": [
+                {
+                    "repetitions": 6,
+                    "distance": 100,
+                    "stroke": "Mixed",
+                    "description": "Kick. Drill. Swim."
+                }
+            ]
+        },
+        {
+            "Main Set": [
+                {
+                    "repetitions": 3,
+                    "distance": 200,
+                    "stroke": "Free",
+                    "description": "Build by the 50."
+                },
+                {
+                    "repetitions": 2,
+                    "distance": 200,
+                    "stroke": "IM",
+                    "description": "Moderate."
+                },
+                {
+                    "repetitions": 14,
+                    "distance": 100,
+                    "stroke": "Free",
+                    "description": "Easy. Moderate. Sprint. (Last 2 beat time)"
+                }
+            ]
+        },
+        {
+            "Kick": [
+                {
+                    "repetitions": 4,
+                    "distance": 150,
+                    "stroke": "Free",
+                    "description": "Moderate. Sprint the last 50's."
+                }
+            ]
+        },
+        {
+            "Warm Down": [
+                {
+                    "repetitions": 3,
+                    "distance": 100,
+                    "stroke": "Free",
+                    "description": "Easy."
+                }
+            ]
+        }
+    ]
 }
