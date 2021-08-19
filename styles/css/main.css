@@ -83,6 +83,7 @@ h1 {
   margin-right: 18px;
   margin-top: 7.5px;
   margin-bottom: 7.5px;
+  -webkit-print-color-adjust: exact;
 }
 
 #meta {
@@ -148,6 +149,7 @@ h2 {
   margin-right: 7.5px;
   position: absolute;
   top: -1.5px;
+  -webkit-print-color-adjust: exact;
 }
 
 .details {
