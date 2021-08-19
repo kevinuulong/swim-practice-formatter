@@ -21,7 +21,7 @@ async function loadSwim(swim) {
                 document.getElementById("meta").appendChild(elem);
             });
 
-            // Set Sections
+            // Set sections
             let total = 0;
             res.body.forEach(section => {
                 let sectionTitle = Object.keys(section)[0];
@@ -35,6 +35,7 @@ async function loadSwim(swim) {
 
                 let sectionTotal = 0;
 
+                // Create exercises
                 let i = 1;
                 section[sectionTitle].forEach(data => {
                     let exercise = document.createElement('div');
@@ -65,7 +66,8 @@ async function loadSwim(swim) {
                 distances[distances.length - 1].textContent = `${sectionTotal} ${res.measurement}`;
                 total += sectionTotal;
             })
-            
+
+            // Compute total distance
             let totalDistance = document.createElement('p');
             totalDistance.className = "distance";
             totalDistance.id = "total";
