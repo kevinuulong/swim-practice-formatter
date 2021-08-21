@@ -1,6 +1,6 @@
 const searchParams = new URLSearchParams(window.location.search);
 let practice = searchParams.get('q');
-loadSwim(`/content/${practice}.json`);
+loadSwim(`/content/${practice}.swim.json`);
 
 async function loadSwim(swim) {
     const content = await fetch(swim)
