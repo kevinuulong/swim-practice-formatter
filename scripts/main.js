@@ -16,7 +16,7 @@ async function loadSwim(swim) {
             document.getElementById("date").innerText = date;
 
             // Tags
-            res.tags.forEach(tag => {
+            res.tags?.forEach(tag => {
                 let elem = document.createElement('p');
                 elem.className = "tag";
                 elem.textContent = tag;
@@ -25,7 +25,7 @@ async function loadSwim(swim) {
 
             // Set sections
             let total = 0;
-            res.body.forEach(section => {
+            res.body?.forEach(section => {
                 let sectionTitle = Object.keys(section)[0];
                 let title = document.createElement('h2');
                 title.textContent = sectionTitle;
